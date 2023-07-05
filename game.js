@@ -1,15 +1,15 @@
 function load_images(){
     //images for player,virus,gem..
     enemy_image = new Image;
-    enemy_image.src = "/v1.png";
+    enemy_image.src = "./v1.png";
     
     //player Image
     player_img = new Image;
-    player_img.src = "/superhero.png";
+    player_img.src = "./superhero.png";
     
     //gem image
     gem_image = new Image;
-    gem_image.src = "/gemm.png";
+    gem_image.src = "./gemm.png";
 }
 
 function init(){
